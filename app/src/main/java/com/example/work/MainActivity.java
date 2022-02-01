@@ -26,9 +26,9 @@ import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
 
-    String url_kolkata  = "https://api.weatherapi.com/v1/current.json?key=4e46c4b681fa451f9ac70013220102&q=Kolkata&aqi=no";
-    String url_Banglore = "https://api.weatherapi.com/v1/current.json?key=4e46c4b681fa451f9ac70013220102&q=Bangalore&aqi=no";
-    String url_Delhi = "https://api.weatherapi.com/v1/current.json?key=4e46c4b681fa451f9ac70013220102&q=Delhi&aqi=no";
+    String url_kolkata  = "https://api.weatherapi.com/v1/current.json?key=&q=Kolkata&aqi=no";
+    String url_Banglore = "https://api.weatherapi.com/v1/current.json?key=&q=Bangalore&aqi=no";
+    String url_Delhi = "https://api.weatherapi.com/v1/current.json?key=&q=Delhi&aqi=no";
 
     TextView tvd,tvb,tvk,avg;
 
